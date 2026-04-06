@@ -4,6 +4,7 @@ import MyNav from './MyNav';
 import Home from './Home';
 import About from './About';
 import Products from './Products';
+import MyForm from './MyForm';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/Home" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Products" element={<Products />} />
+        <Route path="/MyForm" element={<MyForm />} />
       </Routes>
     </BrowserRouter>
   );
