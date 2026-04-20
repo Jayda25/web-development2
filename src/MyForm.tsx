@@ -1,9 +1,11 @@
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
 function MyForm() {
     return (
+    <Container className='py-4 px-3 mx-auto'>
         <Form className="w-50 mx-auto">
             <Form.Group className="mb-3">
                 <Form.Label>Product Name </Form.Label>
@@ -27,6 +29,7 @@ function MyForm() {
                 Submit
             </Button>
         </Form>
+    </Container>
     );
 }
 
