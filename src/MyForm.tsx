@@ -6,11 +6,11 @@ function MyForm() {
     return (
         <Form className="w-50 mx-auto">
             <Form.Group className="mb-3">
-                <Form.Label>Product Name</Form.Label>
+                <Form.Label>Product Name </Form.Label>
                 <Form.Control placeholder="Enter name" />
             </Form.Group>
             <Form.Group className="mb-3">
-                <Form.Label>Product type</Form.Label>
+                <Form.Label>Product type </Form.Label>
                 <Form.Select aria-label="Default">
                     <option>Default</option>
                     <option value="1">Fruit</option>
